@@ -3,6 +3,7 @@ import { Header } from '../Header/Header';
 import BackgroundFisio from '../../assets/BackgroundGeison.png'
 import { MdPhone } from "react-icons/md";
 import { Parceiros } from '../Parceiros/Parceiros';
+import Sobre from '../Sobre/Sobre';
 
 
 export const HomePage = () => {
@@ -20,7 +21,7 @@ export const HomePage = () => {
             <h5 className='text-regal-blue text-xl'>Seja Bem-Vindo</h5>
             <h2 className='text-black text-6xl w-96'>Destino para alívio e <br />bem-estar</h2>
             <span className='w-3/5 h-1 bg-regal-blue'></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci alias blanditiis labore id similique ex odit, dolores, possimus eligendi repellat doloribus, aut pariatur eos asperiores culpa corporis. Aliquam, sint?</p>
+            <p>Este é o meu site, onde compartilho informações sobre meus serviços de fisioterapia, dicas de saúde e bem-estar, e minha jornada como futuro profissional na área. Aqui você poderá conhecer melhor meu trabalho e como posso ajudar você a alcançar uma vida mais saudável.</p>
             <button className=' items-center relative inline-flex text-sm sm:text-base rounded-full font-medium border-2 border-transparent 
             transition-colors outline-transparent focus:outline-transparent disabled:opacity-50 disabled:pointer-events-none 
             disabled:opacity-40 disabled:hover:opacity-40 disabled:cursor-not-allowed disabled:shadow-none
@@ -47,6 +48,7 @@ export const HomePage = () => {
         </div>
       </div>
     <Parceiros/>
+    <Sobre/>
     </div>
   )
 }
