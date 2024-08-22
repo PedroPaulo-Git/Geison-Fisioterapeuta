@@ -1,0 +1,18 @@
+@keyframes slide {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.logos{
+   animation: 20s slide infinite linear;
+}
+.logos img{
+    margin: 0px 60px;
+    filter: contrast(0);
+}
+.logos-container:hover .logos{
+    animation-play-state: paused;
+}

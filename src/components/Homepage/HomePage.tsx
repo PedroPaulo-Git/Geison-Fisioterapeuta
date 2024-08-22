@@ -2,15 +2,18 @@ import './HomePage.css';
 import { Header } from '../Header/Header';
 import BackgroundFisio from '../../assets/BackgroundGeison.png'
 import { MdPhone } from "react-icons/md";
+import { Parceiros } from '../Parceiros/Parceiros';
 
 
 export const HomePage = () => {
   return (
-    <div className='homepage'>
+    <div className='homepage w-full flex items-center flex-col'>
 
       <Header />
       <div className="
-      mt-24
+      mt-16
+      max-w-screen-2xl
+      h-[45vw]
       grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
         <div className="h-[38rem] rounded-lg"  >
           <div className='justify-start flex flex-col items-center gap-6 mt-16'>
@@ -43,7 +46,7 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-
+    <Parceiros/>
     </div>
   )
 }
