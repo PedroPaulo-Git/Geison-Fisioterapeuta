@@ -5,6 +5,7 @@ import { MdPhone } from "react-icons/md";
 import { Parceiros } from '../Parceiros/Parceiros';
 import Sobre from '../Sobre/Sobre';
 import { Footer } from '../Footer/Footer';
+import { Testemunhas } from '../Testemunhas/Testemunhas';
 
 
 export const HomePage = () => {
@@ -51,6 +52,7 @@ export const HomePage = () => {
       </div>
     <Parceiros/>
     <Sobre/>
+    <Testemunhas/>
     <Footer/>
     </div>
   )
