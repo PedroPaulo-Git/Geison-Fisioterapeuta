@@ -12,7 +12,7 @@ export const Testemunhas = () => {
     slidesToScroll: 3
   };
   return (
-    <div className=" bg-[#d7faf5] flex justify-center w-full py-56 pt-96">
+    <div className=" bg-[#d7faf5] flex justify-center w-full py-56 pt-36">
         
 <section>
   <div className="max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">

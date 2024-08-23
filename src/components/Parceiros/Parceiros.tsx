@@ -4,7 +4,7 @@ import Parceiro2 from '../../assets/PortICON.png'
 
 export const Parceiros = () => {
   return (
- <div className='flex justify-center w-full bg-white shadow-sm border-2 border-regal-blue  shadow-[#335f5b88] '>
+ <div className='flex justify-center w-full bg-white shadow-sm border-2 border-[#335f5b88]  shadow-[#335f5b88] '>
    
     <div className='logos-container w-3/4 whitespace-nowrap  overflow-hidden '>
 

@@ -8,6 +8,7 @@ import { Footer } from '../Footer/Footer';
 import { Testemunhas } from '../Testemunhas/Testemunhas';
 import { Servicos } from '../Servicos/Servicos';
 import ServicosBackground from '../../assets/backgroundservices.jpeg'
+import { Escolha } from '../Escolha/Escolha';
 
 
 export const HomePage = () => {
@@ -55,6 +56,7 @@ export const HomePage = () => {
     <Parceiros/>
     <Sobre/>
     <Servicos/>
+    <Escolha/>
     <Testemunhas/>
     <Footer/>
     </div>

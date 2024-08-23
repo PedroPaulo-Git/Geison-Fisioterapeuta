@@ -24,9 +24,9 @@ export const Servicos = () => {
         <div className='w-full ' >
             <div className='relative py-32 w-full bg-[#043632af] flex justify-center flex-col items-center'>
                 <div className='w-full flex flex-col justify-center items-center'>
-                    <h4 className='text-blue-light text-xl font-semibold'> Meus Serviços</h4>
-                    <h1 className='text-4xl mb-44 tracking-tight sm:text-7xl font-semibold text-white'>Promovendo os Melhores Serviços</h1>
-                    <span className='w-72 h-[4px] mt-6 bg-blue-light absolute'></span>
+                    <h4 className='text-blue-light text-xl font-normal'> Meus Serviços</h4>
+                    <h1 className='text-4xl mb-44 tracking-tight sm:text-7xl text-white'>Promovendo os Melhores Serviços</h1>
+                    <span className='w-48 h-[4px] mt-6 bg-blue-light absolute'></span>
                 </div>
                
                 <Slider className='slide-servicos' {...settings}>
