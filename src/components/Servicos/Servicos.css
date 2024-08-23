@@ -1,0 +1,14 @@
+.slick-slide>div {
+    margin: 0 20px;
+
+}
+
+.slide-servicos {
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 330px;
+    margin-bottom: 200px;
+}

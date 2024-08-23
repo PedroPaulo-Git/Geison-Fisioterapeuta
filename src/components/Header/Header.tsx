@@ -3,7 +3,7 @@ import Logo from '../../assets/Estudante Geison.png'
 
 export const Header = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-[#d7faf5]'>
 
 <header className=" py-10  ">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
