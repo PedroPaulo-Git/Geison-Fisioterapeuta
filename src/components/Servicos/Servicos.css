@@ -12,3 +12,16 @@
     margin-top: 330px;
     margin-bottom: 200px;
 }
+
+@media screen and (max-width: 1130px) {
+    .imageservices-background {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1130px) {
+    .imageservices-background-static {
+      display: block;
+    }
+  }
+ 

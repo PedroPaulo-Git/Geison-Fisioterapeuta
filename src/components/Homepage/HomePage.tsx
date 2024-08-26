@@ -7,8 +7,8 @@ import Sobre from '../Sobre/Sobre';
 import { Footer } from '../Footer/Footer';
 import { Testemunhas } from '../Testemunhas/Testemunhas';
 import { Servicos } from '../Servicos/Servicos';
-import ServicosBackground from '../../assets/backgroundservices.jpeg'
 import { Escolha } from '../Escolha/Escolha';
+import { SocialMidias } from '../SocialMidias/SocialMidias';
 
 
 export const HomePage = () => {
@@ -17,15 +17,14 @@ export const HomePage = () => {
 
       <Header/>
       <div className="
-      bg-[#d7faf5]
-      pt-10
+      bg-[#e5faf7]
       pb-40
       px-28
-      grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+      grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 max-sm:px-12 max-sm:py-16">
         <div className="h-[48rem] rounded-lg "  >
-          <div className='justify-center flex flex-col items-center gap-6 h-full'>
+          <div className='justify-center flex flex-col items-center gap-6 h-full px-10 max-sm:justify-start'>
             <h5 className='text-regal-blue text-xl'>Seja Bem-Vindo</h5>
-            <h2 className='text-black text-6xl w-96'>Destino para alívio e <br />bem-estar</h2>
+            <h2 className='text-black text-6xl w-96'>Destino Para Alívio e <br />Bem-Estar</h2>
             <span className='w-3/5 h-1 bg-regal-blue'></span>
             <p>Este é o meu site, onde compartilho informações sobre meus serviços de fisioterapia, dicas de saúde e bem-estar, e minha jornada como futuro profissional na área. Aqui você poderá conhecer melhor meu trabalho e como posso ajudar você a alcançar uma vida mais saudável.</p>
             <button className=' items-center relative inline-flex text-sm sm:text-base rounded-full font-medium border-2 border-transparent 
@@ -58,6 +57,7 @@ export const HomePage = () => {
     <Servicos/>
     <Escolha/>
     <Testemunhas/>
+    <SocialMidias/>
     <Footer/>
     </div>
   )

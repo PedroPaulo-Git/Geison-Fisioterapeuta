@@ -16,19 +16,19 @@ const links = [
   
   export default function Sobre() {
     return (
-      <div className="relative w-full isolate overflow-hidden py-24 sm:py-32 bg-[#d7faf5] ">
+      <div className="relative w-full isolate overflow-hidden py-24 sm:py-32  bg-[#e5faf7] ">
      
         
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto lg:mx-0 flex w-full">
             <div className='w-3/4 text-left'>
             <p className='text-regal-blue text-xl'>Sobre Mim</p>
-            <h2 className="text-4xl tracking-tight sm:text-6xl">O Melhor Fisioterapeuta da Cidade</h2>
+            <h2 className="text-4xl tracking-tight sm:text-6xl ">O Melhor Fisioterapeuta da Cidade</h2>
             <p className="mt-6 text-lg leading-8 ">
             Sou um fisioterapeuta em formação na Universidade Uninassau, dedicado a aprender e aplicar os conhecimentos mais avançados em reabilitação e cuidados com a saúde para ajudar meus futuros pacientes a recuperar sua qualidade de vida.
             </p>
             </div>
-            <img className = 'w-3/5' src={SobreImage} alt="" />
+            <img className = 'w-3/5 object-contain max-md:w-2/5 max-md:absolute max-md:right-0 -z-20' src={SobreImage} alt="" />
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-regal-blue sm:grid-cols-2 md:flex lg:gap-x-10">

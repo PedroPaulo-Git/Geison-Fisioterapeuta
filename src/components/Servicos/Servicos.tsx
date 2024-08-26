@@ -23,6 +23,7 @@ export const Servicos = () => {
         <>
         <div className='w-full ' >
             <div className='relative py-32 w-full bg-[#043632af] flex justify-center flex-col items-center'>
+            <img className='imageservices-background-static w-full z-[-1] absolute' src={ServicosBackground} alt="" />
                 <div className='w-full flex flex-col justify-center items-center'>
                     <h4 className='text-blue-light text-xl font-normal'> Meus Serviços</h4>
                     <h1 className='text-4xl mb-44 tracking-tight sm:text-7xl text-white'>Promovendo os Melhores Serviços</h1>
@@ -64,9 +65,9 @@ export const Servicos = () => {
                         />
 
                         <div className="relative p-1 sm:p-6 lg:p-8">
-                            <p className="text-sm font-medium uppercase tracking-widest text-blue-light">Auriculoterapia</p>
+                            <p className="text-sm font-medium uppercase tracking-widest text-blue-light">Equilíbrio</p>
 
-                            <p className="text-xl font-bold text-white sm:text-2xl">Equilíbrio</p>
+                            <p className="text-xl font-bold text-white sm:text-2xl">Auriculoterapia</p>
 
                             <div className="mt-32 sm:mt-48 lg:mt-64">
                                 <div
@@ -132,7 +133,7 @@ export const Servicos = () => {
             </div>
             
         </div>
-        <img className='w-full z-[-1] fixed top-0 left-0  ' src={ServicosBackground} alt="" />
+        <img className='imageservices-background w-full z-[-1] fixed top-0 left-0' src={ServicosBackground} alt="" />
 </>
     )
 }

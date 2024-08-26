@@ -1,16 +1,16 @@
 import EscolhaGeison from '../../assets/EscolhaGeisonWithBackground.jpg'
 export const Escolha = () => {
     return (
-        <div className="bg-[#d7faf5] w-full pt-80">
+        <div className=" bg-[#e5faf7] w-full pt-96">
             <section>
                 <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
                         <div className="relative z-10 lg:py-16">
-                            <div className="relative h-64 sm:h-80 lg:h-full rounded-l-3xl">
+                            <div className="relative h-64 sm:h-80 lg:h-full">
                                 <img
                                     alt=""
                                     src={EscolhaGeison}
-                                    className="absolute h-full ml-5 object-cover shadow-2xl rounded-l-3xl"
+                                    className="absolute h-full ml-5 object-cover shadow-2xl "
                                 />
                             </div>
                         </div>
@@ -22,8 +22,8 @@ export const Escolha = () => {
 
                             <div className="p-8 sm:p-16 lg:p-24">
                                 <div className='w-full text-start '>
-                                    <h4 className='text-regal-blue text-xl font-semibold'> Por que me escolher </h4>
-                                    <h1 className='text-4xl tracking-tight sm:text-5xl font-semibold text-black'>Tratamento personalizado individualmente: seu caminho para o bem-estar</h1>
+                                    <h4 className='text-regal-blue text-xl font-semibold'> Por Que Me Escolher </h4>
+                                    <h1 className='text-4xl tracking-tight sm:text-5xl font-semibold text-black'>Tratamento Personalizado Individualmente: Seu Caminho Para o Bem-Estar</h1>
                                     <span className='w-56 h-[4px] mt-6 bg-regal-blue absolute'></span>
                                     <p className='pt-12'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis numquam eos modi mollitia itaque, amet recusandae sequi animi placeat. Sunt ipsa dolorum obcaecati labore laborum sit? Veritatis nobis perferendis eum!</p>
                                 </div>
@@ -81,10 +81,10 @@ export const Escolha = () => {
                                     <>
                                         <div className="flex justify-between mb-1 mt-8">
                                             <span className="text-base font-medium text-black">Reabilitação Funcional</span>
-                                            <span className="text-sm font-medium text-regal-blue">79%</span>
+                                            <span className="text-sm font-medium text-regal-blue">96%</span>
                                         </div>
                                         <div className="w-full rounded-full h-2.5 bg-[#134141]">
-                                            <div className="bg-regal-blue h-2.5 rounded-full" style={{ width: "79%" }}></div>
+                                            <div className="bg-regal-blue h-2.5 rounded-full" style={{ width: "96%" }}></div>
                                         </div>
                                     </>
                                 </div>
