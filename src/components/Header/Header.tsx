@@ -1,5 +1,6 @@
 import './Header.css'
 import Logo from '../../assets/Estudante Geison.png'
+import { Link } from 'react-scroll';
 
 'use client'
 import {
@@ -103,18 +104,34 @@ export const Header = () => {
             </div>
           </PopoverPanel>
         </Popover> */}
-          <a href="#" className="text-sm font-normal leading-6 text-gray-900">
-          Serviços
-          </a>
-          <a href="#" className="text-sm font-normal leading-6 text-gray-900">
-            Parceria
-          </a>
-          <a href="#" className="text-sm font-normal leading-6 text-gray-900">
-            Sobre
-          </a>
-          <a href="#" className="text-sm font-normal leading-6 text-gray-900">
-            Contato
-          </a>
+          <Link
+          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            to="Serviços">Serviços</Link>
+             <Link
+          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={500}
+            to="Parceria">Parceria</Link>
+             <Link
+          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            to="Sobre">Sobre</Link>
+             <Link
+          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            to="Contato">Contato</Link>
         </PopoverGroup>
       </nav>
       <hr className='pb-5 mt-[-50px]' />

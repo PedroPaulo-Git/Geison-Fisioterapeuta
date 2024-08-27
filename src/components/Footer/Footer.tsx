@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 export const Footer = () => {
     return (
-<footer className="relative bg-regal-blue pt-20 pb-6 w-full">
+<footer className="relative bg-regal-blue pt-20 pb-6 w-full" id='Contato'>
     <div className="container m-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">

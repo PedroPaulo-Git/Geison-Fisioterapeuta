@@ -16,7 +16,7 @@ const links = [
   
   export default function Sobre() {
     return (
-      <div className="relative w-full isolate overflow-hidden py-24 sm:py-32  bg-[#e5faf7] ">
+      <div className="relative w-full isolate overflow-hidden py-24 sm:py-32  bg-[#e5faf7] " id='Sobre'>
      
         
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">

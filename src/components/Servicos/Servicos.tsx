@@ -21,7 +21,7 @@ export const Servicos = () => {
     };
     return (
         <>
-        <div className='w-full ' >
+        <div className='w-full ' id='Serviços'>
             <div className='relative py-32 w-full bg-[#043632af] flex justify-center flex-col items-center'>
             <img className='imageservices-background-static w-full z-[-1] absolute' src={ServicosBackground} alt="" />
                 <div className='w-full flex flex-col justify-center items-center'>
