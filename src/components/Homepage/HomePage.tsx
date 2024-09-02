@@ -30,7 +30,7 @@ export const HomePage = () => {
             transition-colors outline-transparent focus:outline-transparent disabled:opacity-50 disabled:pointer-events-none 
             disabled:hover:opacity-40 disabled:cursor-not-allowed disabled:shadow-none
         text-white bg-regal-blue hover:bg-[#1e6e64] focus:bg-[#1e6e64]  px-4 py-1 sm:py-1.5 sm:px-5'>
-              <MdPhone className='mr-2' /> <a href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."> Atendimento</a>
+              <MdPhone className='mr-2' /> <a  href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato." target="_blank"> Atendimento</a>
              
             </button>
           </div>

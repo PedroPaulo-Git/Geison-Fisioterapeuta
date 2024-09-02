@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 export const Footer = () => {
     return (
@@ -16,10 +17,10 @@ export const Footer = () => {
                 </h5>
                 <div className="mt-6 lg:mb-0 mb-6">
                     <div className="flex">
-                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="#"><FaInstagram /></a>
-                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="#"><FaFacebookF /></a>
-                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="#"><FaLinkedinIn /></a>
-                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="#"><FaWhatsapp /></a>
+                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href= "https://www.instagram.com/pedro.paulo908/" target="_blank"><FaInstagram /></a>
+                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="https://github.com/PedroPaulo-Git" target="_blank"><FaGithub /></a>
+                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="https://www.linkedin.com/in/pedro-paulodev/" target="_blank"><FaLinkedinIn /></a>
+                        <a className="w-10 h-10 bg-white mx-2 flex text-center justify-center items-center rounded-full" href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato." target="_blank"><FaWhatsapp /></a>
                     </div>
                 </div>
             </div>
