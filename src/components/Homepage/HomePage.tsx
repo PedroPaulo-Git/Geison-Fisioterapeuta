@@ -1,4 +1,3 @@
-import './HomePage.css';
 import { Header } from '../Header/Header';
 import BackgroundFisio from '../../assets/BackgroundGeison.png'
 import { MdPhone } from "react-icons/md";
