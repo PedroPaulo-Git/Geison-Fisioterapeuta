@@ -166,7 +166,7 @@ export const Header = () => {
             className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={600}
             duration={500}
             to="Habilidades">Habilidades</Link>
 
