@@ -15,11 +15,38 @@ export const Testemunhas = () => {
     slidesToShow: 2,
     slidesToScroll: 3,
     arrows:false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 590,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3
+        }
+      }
+    ]
   };
+
   return (
-    <div className=" bg-[#c4fcf2] flex justify-center w-full py-10">
+    <div className=" bg-[#c4fcf2] flex justify-center w-full py-10" id="Depoimentos">
  <section>
-  <div className="max-w-[1400px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-0 xl:py-24 ">
+  <div className="max-w-[1400px] px-4 py-12 sm:px-6 lg:me-0 lg:pt-48 xl:py-24 lg:pb-14 ">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16  lg:px-14 ">
       <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right flex flex-col mx-auto">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

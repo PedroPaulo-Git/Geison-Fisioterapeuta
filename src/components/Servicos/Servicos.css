@@ -2,9 +2,11 @@
     margin: 0 20px;
 
 }
-
+.slick-list{
+  justify-content: center;
+}
 .slide-servicos {
-    width: 90%;
+    width: 80%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -23,5 +25,28 @@
     .imageservices-background-static {
       display: block;
     }
+  }
+ 
+  @media screen and (max-width:475px) {
+    .slide-servicos {
+      margin-top: 250px;
+      margin-bottom: 100px;
+  }
+  .slick-slide>div {
+    margin: 5px ;
+
+}
+
+  }
+  @media screen and (max-width:360px) {
+    .slide-servicos {
+      margin-top: 250px;
+      margin-bottom: 100px;
+  }
+  .slick-slide>div {
+    margin: 0px ;
+
+}
+
   }
  

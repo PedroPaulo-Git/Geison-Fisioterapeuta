@@ -17,24 +17,61 @@ export const Servicos = () => {
         infinite: false,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 4
+        slidesToScroll: 4,
+        arrow:false, 
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+                arrow:false, 
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrow:false, 
+              }
+            },
+            {
+              breakpoint: 590,
+              settings: {
+                arrow:false, 
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 475,
+              settings: {
+                arrow:false, 
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <>
         <div className='w-full ' id='Serviços'>
             <div className='relative py-32 w-full bg-[#043632af] flex justify-center flex-col items-center'>
-            <img className='imageservices-background-static w-full z-[-1] absolute' src={ServicosBackground} alt="" />
+            <img className='imageservices-background-static w-full z-[-1] absolute max-sm:h-full max-sm:object-cover' src={ServicosBackground} alt="" />
                 <div className='w-full flex flex-col justify-center items-center'>
                     <h4 className='text-blue-light text-xl font-normal'> Meus Serviços</h4>
                     <h1 className='text-4xl mb-44 tracking-tight sm:text-7xl text-white'>Promovendo os Melhores Serviços</h1>
-                    <span className='w-48 h-[4px] mt-6 bg-blue-light absolute'>
+                    <span className='w-48 h-[4px] max-sm:mt-0 bg-blue-light absolute sm:mt-24'>
                         
                     </span>
                 </div>
                
                 <Slider className='slide-servicos' {...settings}>
                     
-                    <div className="group relative bg-black mx-10 ">
+                    <div className="group relative bg-black h-96 ">
                         <img
                             alt=""
                             src={ServicosVentosatherapy}
@@ -46,7 +83,7 @@ export const Servicos = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Ventosaterapia</p>
 
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
+                            <div className="mt-40 px-6 sm:mt-20 lg:mt-28">
                                 <div
                                     className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
@@ -57,7 +94,7 @@ export const Servicos = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="group relative bg-black mx-10 ">
+                    <div className="group relative bg-black h-96 ">
                         <img
                             alt=""
                             src={ServicosAuriculotherapy}
@@ -69,7 +106,7 @@ export const Servicos = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Auriculoterapia</p>
 
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
+                            <div className="mt-40 px-6 sm:mt-20 lg:mt-28">
                                 <div
                                     className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
@@ -80,7 +117,7 @@ export const Servicos = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="group relative bg-black mx-10 ">
+                    <div className="group relative bg-black h-96 ">
                         <img
                             alt=""
                             src={ServicosCinesiotherapy}
@@ -92,7 +129,7 @@ export const Servicos = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Cinesioterapia</p>
 
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
+                            <div className="mt-40 px-6 sm:mt-20 lg:mt-28">
                                 <div
                                     className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
@@ -103,7 +140,7 @@ export const Servicos = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="group relative bg-black mx-10 ">
+                    <div className="group relative bg-black h-96 ">
                         <img
                             alt=""
                             src={ServicosKinesiología}
@@ -115,7 +152,7 @@ export const Servicos = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Kinesioterapia</p>
 
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
+                            <div className="mt-40 px-6 sm:mt-20 lg:mt-28">
                                 <div
                                     className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >

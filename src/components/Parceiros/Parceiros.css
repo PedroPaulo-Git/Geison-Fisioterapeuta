@@ -16,3 +16,9 @@
 .logos-container:hover .logos{
     animation-play-state: paused;
 }
+@media (max-width:640px) {
+    .logos img{
+        margin: 0px 5px;
+        filter: contrast(0);
+    }
+}

@@ -1,5 +1,6 @@
 import './Header.css'
 import Logo from '../../assets/Estudante Geison.png'
+import LogoMobile from '../../assets/IconMobile.png'
 import { Link } from 'react-scroll';
 
 'use client'
@@ -33,6 +34,33 @@ const products = [
   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
+const services = [
+  {
+    name: 'Ventosaterapia',
+    description: 'Aplicação de ventosas para melhorar a circulação e aliviar tensões musculares.',
+    href: '#Serviços',
+    // icon: VentosatherapyIcon substitua pelo ícone que você está utilizando
+  },
+  {
+    name: 'Auriculoterapia',
+    description: 'Estimulação de pontos na orelha para equilibrar energia e aliviar sintomas.',
+    href: '#Serviços',
+    //icon: AuriculotherapyIcon // Substitua pelo ícone que você está utilizando
+  },
+  {
+    name: 'Cinesioterapia',
+    description: 'Exercícios terapêuticos para melhorar mobilidade, força e flexibilidade.',
+    href: '#Serviços',
+    //icon: CinesiotherapyIcon // Substitua pelo ícone que você está utilizando
+  },
+  {
+    name: 'Kinesioterapia',
+    description: 'Técnicas de movimento para reabilitar e melhorar a funcionalidade corporal.',
+    href: '#Serviços',
+    //icon: KinesiotherapyIcon // Substitua pelo ícone que você está utilizando
+  },
+];
+
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
   { name: 'Contact sales', href: '#', icon: PhoneIcon },
@@ -105,28 +133,45 @@ export const Header = () => {
           </PopoverPanel>
         </Popover> */}
           <Link
-          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
             to="Serviços">Serviços</Link>
-             <Link
-          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
-            spy={true}
-            smooth={true}
-            offset={-200}
-            duration={500}
-            to="Parceria">Parceria</Link>
-             <Link
-          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+          <Link
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
             to="Sobre">Sobre</Link>
-             <Link
-          className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+          <Link
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={500}
+            to="Parceria">Parceria</Link>
+          <Link
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            to="Depoimentos">Depoimentos</Link>
+
+
+          <Link
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            to="Habilidades">Habilidades</Link>
+
+          <Link
+            className="text-sm font-normal leading-6 cursor-pointer text-gray-900"
             spy={true}
             smooth={true}
             offset={0}
@@ -143,8 +188,8 @@ export const Header = () => {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src={LogoMobile}
+                className="h-16 "
               />
             </a>
             <button
@@ -159,13 +204,14 @@ export const Header = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                    Product
+                    Serviços
                     <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
+                    {[...services].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
@@ -177,24 +223,42 @@ export const Header = () => {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Company
-                </a>
+                <Link
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Depoimentos">Depoimentos</Link>
+                <Link
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Habilidades">Habilidades</Link>
+
+                <Link
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Parceria">Parceria</Link>
+                <Link
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Contato">Contato</Link>
+                <Link
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Sobre">Sobre</Link>
               </div>
             </div>
           </div>

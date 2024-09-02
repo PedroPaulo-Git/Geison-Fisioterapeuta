@@ -1,7 +1,7 @@
 import EscolhaGeison from '../../assets/EscolhaGeisonWithBackground.jpg'
 export const Escolha = () => {
     return (
-        <div className=" bg-[#e5faf7] w-full pt-96">
+        <div className=" bg-[#e5faf7] w-full pt-96" id='Habilidades'>
             <section>
                 <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
@@ -10,7 +10,7 @@ export const Escolha = () => {
                                 <img
                                     alt=""
                                     src={EscolhaGeison}
-                                    className="absolute h-full ml-5 object-cover shadow-2xl "
+                                    className="absolute h-full object-cover w-full lg:mb-56 "
                                 />
                             </div>
                         </div>

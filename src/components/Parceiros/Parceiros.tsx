@@ -3,28 +3,28 @@ import Parceiro1 from '../../assets/parceiro1.png'
 import Parceiro2 from '../../assets/PortICON.png'
 
 export const Parceiros = () => {
-  return (
- <div className='flex justify-center w-full bg-white shadow-sm border-2 border-[#335f5b88]  shadow-[#335f5b88] ' id='Parceria'>
-   
-    <div className='logos-container w-3/4 whitespace-nowrap  overflow-hidden '>
+    return (
+        <div className=' flex justify-center w-full bg-white shadow-sm border-2 border-[#335f5b88]  shadow-[#335f5b88] ' id='Parceria'>
 
-    <div className='pt-6'>
-        <h3 className='text-xl font-normal'>Parcerias Feitas:</h3>
-    </div>
-    <div className=' logos  inline-flex  justify-center items-center  '>
-        <img className='h-32' src={Parceiro1} alt="" />
-        <img className='h-52' src={Parceiro2} alt="" />
-        <img className='h-32' src={Parceiro1} alt="" />
-        <img className='h-52' src={Parceiro2} alt="" />
+            <div className='logos-container w-3/4 whitespace-nowrap  overflow-hidden '>
 
-    </div>
-    <div className=' logos inline-flex justify-center items-center '>
-        <img className='h-32' src={Parceiro1} alt="" />
-        <img className='h-52' src={Parceiro2} alt="" />
-        <img className='h-32' src={Parceiro1} alt="" />
-        <img className='h-52' src={Parceiro2} alt="" />
-    </div>
-    </div>
- </div>
-  )
+                <div className='pt-6'>
+                    <h3 className='text-xl font-normal  max-sm:text-sm'>Parcerias Feitas:</h3>
+                </div>
+                <div className=' logos  inline-flex  justify-center items-center  '>
+                    <img className='h-32 max-sm:h-12' src={Parceiro1} alt="" />
+                    <img className='h-52 max-sm:h-28' src={Parceiro2} alt="" />
+                    <img className='h-32 max-sm:h-12' src={Parceiro1} alt="" />
+                    <img className='h-52 max-sm:h-28' src={Parceiro2} alt="" />
+
+                </div>
+                <div className=' logos inline-flex justify-center items-center '>
+                    <img className='h-32 max-sm:h-12' src={Parceiro1} alt="" />
+                    <img className='h-52 max-sm:h-28' src={Parceiro2} alt="" />
+                    <img className='h-32 max-sm:h-12' src={Parceiro1} alt="" />
+                    <img className='h-52 max-sm:h-28' src={Parceiro2} alt="" />
+                </div>
+            </div>
+        </div>
+    )
 }

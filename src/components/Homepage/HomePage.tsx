@@ -20,7 +20,7 @@ export const HomePage = () => {
       pb-40
       px-28
       grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 max-sm:px-12 max-sm:py-16">
-        <div className="h-[48rem] rounded-lg "  >
+        <div className="h-[48rem] rounded-lg max-sm:h-[38rem]"  >
           <div className='justify-center flex flex-col items-center gap-6 h-full px-10 max-sm:justify-start'>
             <h5 className='text-regal-blue text-xl'>Seja Bem-Vindo</h5>
             <h2 className='text-black text-6xl w-96'>Destino Para Alívio e <br />Bem-Estar</h2>
@@ -35,9 +35,9 @@ export const HomePage = () => {
             </button>
           </div>
         </div>
-        <div className="h-[48rem]  rounded-lg "><img className='rounded-[110px]' src={BackgroundFisio} alt="" /></div>
-        <div className="h-[48rem] rounded-lg flex justify-center">
-          <div className=' flex grid-cols-3 gap-32 flex-col justify-center'>
+        <div className="h-[48rem]  rounded-lg "><img className='rounded-[110px] h-full w-full object-cover' src={BackgroundFisio} alt="" /></div>
+        <div className="h-[48rem] rounded-lg flex justify-center max-sm:h-[28rem] ">
+          <div className=' flex grid-cols-3 gap-32 flex-col justify-center max-sm:gap-12'>
             <div className='flex justify-center items-center flex-col'>
               <h1 className='text-regal-blue text-6xl mb-4'>+23</h1>
               <p className='text-sm sm:text-base font-medium'>Trabalhos Concluídos</p>
