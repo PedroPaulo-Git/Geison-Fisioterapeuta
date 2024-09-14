@@ -29,17 +29,14 @@ export const Parceiros = () => {
                 <div className=' logos  inline-flex  justify-center items-center  '>
                     <img className='h-32 max-sm:h-12  ' src={Parceiro1} alt="" />
                     <img className='h-52 max-sm:h-28  ' src={Parceiro2} alt="" />
-
                     {windowWidth < 650 ? null : <img className='h-32 max-sm:h-12  ' src={Parceiro1} alt="" />}
                     {windowWidth < 650 ? null : <img className='h-52 max-sm:h-28  ' src={Parceiro2} alt="" />}
                 </div>
                 <div className=' logos inline-flex justify-center items-center '>
                     <img className='h-32 max-sm:h-12 ' src={Parceiro1} alt="" />
                     <img className='h-52 max-sm:h-28  ' src={Parceiro2} alt="" />
-
                     {windowWidth < 650 ? null : <img className='h-32 max-sm:h-12  ' src={Parceiro1} alt="" />}
                     {windowWidth < 650 ? null : <img className='h-52 max-sm:h-28  ' src={Parceiro2} alt="" />}
-
                 </div>
             </div>
         </div>

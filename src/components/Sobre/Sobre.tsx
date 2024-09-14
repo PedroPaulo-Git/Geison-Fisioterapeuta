@@ -9,7 +9,7 @@ const links = [
   ]
   const stats = [
     { name: 'Parceiros e colaborações', value: '12' },
-    { name: 'Projetos Completados', value: '300+' },
+    { name: 'Projetos Completados', value: '100+' },
     { name: 'Horas por semana', value: '40' },
     { name: 'Flexibilidade de horários', value: 'Total' },
   ]
@@ -28,7 +28,7 @@ const links = [
             Sou um fisioterapeuta em formação na Universidade Uninassau, dedicado a aprender e aplicar os conhecimentos mais avançados em reabilitação e cuidados com a saúde para ajudar meus futuros pacientes a recuperar sua qualidade de vida.
             </p>
             </div>
-            <img className = 'w-3/5 object-contain max-md:w-2/5 max-md:absolute max-md:right-0 -z-20' src={SobreImage} alt="" />
+            <img className = 'w-3/5 object-contain max-md:w-2/5 max-md:absolute max-md:right-0 -z-20 max-md:-mt-3' src={SobreImage} alt="" />
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-regal-blue sm:grid-cols-2 md:flex lg:gap-x-10">

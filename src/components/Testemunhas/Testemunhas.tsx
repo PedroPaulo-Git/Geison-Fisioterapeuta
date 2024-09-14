@@ -20,7 +20,7 @@ export const Testemunhas = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -29,15 +29,14 @@ export const Testemunhas = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToScroll: 1,
         }
       },
       {
         breakpoint: 590,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 3
+          slidesToScroll: 1
         }
       }
     ]

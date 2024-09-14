@@ -10,7 +10,7 @@
    animation: 20s slide infinite linear;
 }
 .logos img{
-    margin: 0px 60px;
+    margin: 0px 0px;
     filter: contrast(0);
 }
 .logos-container:hover .logos{
