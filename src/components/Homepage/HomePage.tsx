@@ -51,7 +51,8 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-    <Parceiros/>
+    {/* <Parceiros/> */}
+    <div className='bg-gray-500 w-[90%] h-[1.2px]'>.</div>
     <Sobre/>
     <Servicos/>
     <Escolha/>

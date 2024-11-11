@@ -13,7 +13,7 @@ export const Testemunhas = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrows:false,
     responsive: [
       {
