@@ -1,7 +1,7 @@
 import { Header } from '../Header/Header';
 import BackgroundFisio from '../../assets/BackgroundGeison.png'
 import { MdPhone } from "react-icons/md";
-import { Parceiros } from '../Parceiros/Parceiros';
+// import { Parceiros } from '../Parceiros/Parceiros';
 import Sobre from '../Sobre/Sobre';
 import { Footer } from '../Footer/Footer';
 import { Testemunhas } from '../Testemunhas/Testemunhas';
